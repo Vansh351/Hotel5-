@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Vollkorn:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&family=Vollkorn:wght@600&display=swap');
+
+
+
+.container2{
+background-color: #FCF0E0;
+min-height:550px ;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.container2 .ContainerPad{
+ margin-top:-20px;
+ width: 90%;
+ padding-bottom: 60px;
+
+}
+
+.container2 .ContainerPad .container2text1 h2{
+margin-top: 50px;
+}
+
+.container2 .container2text1{
+    padding-top:40px;
+    font-size: 30px;
+    text-align: center;
+    color: #F37401;
+    font-family: "Vollkorn", Sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 .container2text1 img{
+  width: 150px;
+  
+}
+
+.container2text2{
+   margin: 40px 30px;
+   font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    text-align: justify;
+  text-justify: inter-word;
+
+}
+
+
+
+
+.FirstLetter{
+  line-height: 27px ;
+}
+
+.FirstLetter::first-letter{
+  initial-letter:2;
+  color:rgba(255, 51, 0, 0.849) ;
+  margin: 0px 5px;
+}
+
+.Card{
+    margin-top: 10px;
+    border: 2px solid #776e65;
+    background-color: white;
+    display: flex;
+    min-height: 180px; 
+    align-items: center;
+    padding : 3px 3px;
+}
+.Card .image{
+  padding: 10px 10px;
+  
+}
+
+.image img{
+  padding: 10px 10px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.Card .image img:hover{
+    transform: rotate(10deg);
+
+} 
+
+.Card .Cardinfo h4{
+  color: #F37401;
+}
+
+.Card .Cardinfo p{
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.Card .Cardinfo{
+  padding: 10px 10px;
+   margin-left: 8px;
+}
+@media screen and (max-width: 1000px) {
+ 
+  .ContainerPad{
+    margin: 0px 20px;
+    padding: 0px;
+  }
+  .container2 .ContainerPad .container2text2 .FirstLetter {
+     margin:20px 0px;
+     width: 100%;
+
+  }
+  .container2 .ContainerPad .container2text2 p:nth-of-type(2) {
+    margin-top:10px;
+    
+ }
+  .Card{
+    margin-top: 30px;
+    border: 2px solid #776e65;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    padding : 3px 3px;
+    flex-direction: column;
+    min-height: 290px; 
+    padding: 10px 10px;
+     
+  }
+  .Card .Cardinfo{
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 666px) {
+ 
+ 
+  .Card{
+    margin-top: 20px;
+    border: 2px solid #776e65;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    padding : 3px 3px;
+    flex-direction: column;
+    min-height: 290px; 
+    padding: 10px 10px;
+     
+  }
+  .Card .Cardinfo{
+    text-align: center;
+  }
+  
+
+}
+
+.space{
+  background-color: #FCF0E0;
+  height: 150px;
+}
+
+.bottom-arrow {
+  border-bottom: 5px solid #FCF0E0;
+  
+}
+
+.bottom-arrow:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0px;
+  border-top: 25px solid #FCF0E0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.gallery h2{
+  text-align: center;
+ 
+  color: #F37401;
+  font-family: "Vollkorn", Sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.gallery img{
+  width: 150px;
+
+}
+.display1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px ;
+  margin-bottom: 50px;
+
+}
+
+.display{
+  
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.afterSlider{
+  height:220px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f17a11;
+  font-family: 'Vollkorn', serif;
+}
+
+.afterSlider h2{
+  text-align: center;
+}
+
+.afterSlider img{
+  width: 200px;
+  height: 50px;
+}
+
+
+/* //animations */
+
+.slide-top {
+	-webkit-animation: slide-top 0.5s linear both;
+	        animation: slide-top 0.5s linear both;
+}
+
+
+  

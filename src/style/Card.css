@@ -1,0 +1,37 @@
+/* .PageCard{
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 10px 10px;
+} */
+.CardRow{
+ padding:5px 15px;
+}
+
+.PageCard{
+   height:300px;
+   margin:10px auto;
+   
+}
+
+.PageCard img{
+ height:100%;
+ width:100%;
+ border-radius: 10px;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ overflow: hidden;
+}
+
+.btn-load-more{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(237, 156, 6);
+    color: white;
+    border: none;
+}

@@ -1,0 +1,67 @@
+.FooterContainer{
+    background-color: black;
+    min-height: 500px;
+   padding: 5px 25px;
+}
+
+.FooterContainer .Colum1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin: 20px auto;
+}
+
+.FooterContainer .Colum1 img:nth-of-type(1) {
+    width: 15rem;
+}
+
+.FooterContainer .Colum1 a{
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+   text-align: center;
+}
+
+.FooterContainer .Colum1 img:nth-of-type(2) {
+    width: 8rem;
+    margin-top: 25px;
+}
+
+.FooterContainer .Colum1 h2{
+    color: white;
+    margin-top: 25px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+.FooterContainer .Colum1 .solid{
+  
+    height: 1px;
+    background: #D4A975 ;
+    width: 70%;
+    margin-top: 25px ;
+}
+
+.FooterContainer .Row2{
+    margin-top: 25px;
+    text-align: center;
+    color: #7A7A7A;
+    
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+
+}
+
+
+@media screen and (max-width: 770px) {
+    .FooterContainer{
+        min-height: 600px;
+    }
+    .FooterContainer .Row2 .Colum3 {
+        margin-top: 25px;
+    }
+}
